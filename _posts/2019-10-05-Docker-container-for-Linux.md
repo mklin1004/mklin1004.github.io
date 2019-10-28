@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Docker for windows to install Linux
 
