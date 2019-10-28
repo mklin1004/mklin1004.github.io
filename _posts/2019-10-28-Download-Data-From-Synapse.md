@@ -18,7 +18,6 @@ syn5580964 is the parent folder. This command will download all subfolders in sy
 
 **single file download**
 
-6. file = syn.get("syn5580982", version=1)
+6. file = syn.get("syn5580982")
 
-Please read Synapse documents for detail  
-(https://docs.synapse.org/articles/downloading_data.html)
+[Please read Synapse documents for detail](https://docs.synapse.org/articles/downloading_data.html)
