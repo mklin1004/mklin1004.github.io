@@ -28,6 +28,7 @@
 '26': p
 '27': s
 '28': e
+published: true
 ---
 ---
 Title: Synapse Download 
