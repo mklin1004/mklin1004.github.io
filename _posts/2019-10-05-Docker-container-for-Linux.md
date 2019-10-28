@@ -51,7 +51,7 @@ jupyter notebook for the book.
 
 > I use "**docker run -ti -p 9875:9875 -v c:\\biopython:/data bio"**
 
-![image2.png]({{site.baseurl}}/_posts/image2.png)
+![image2.png](image2.png)
 
 
 10.
