@@ -5,23 +5,20 @@ Language: Python
 
 ---
 
-import synapseclient
-
-import synapseutils
-
-syn = synapseclient.Synapse()
-
-syn.login('username','password')  
+1. import synapseclient
+2. import synapseutils
+3. syn = synapseclient.Synapse()
+4. syn.login('username','password')  
 ==>*Welcome, username!*
 
-#**Bulk download**  
+**Bulk download**  
 syn5580964 is the parent folder. This command will download all subfolders in syn5580964  
 
-files = synapseutils.syncFromSynapse(syn, entity = 'syn5580964', path='./mayo_RNASeq')
+5. files = synapseutils.syncFromSynapse(syn, entity = 'syn5580964', path='./mayo_RNASeq')
 
-#**single file download**
+**single file download**
 
-file = syn.get("syn5580982", version=1)
+6. file = syn.get("syn5580982", version=1)
 
-Please read Synapse documents for detail
+Please read Synapse documents for detail  
 https://docs.synapse.org/articles/downloading_data.html
