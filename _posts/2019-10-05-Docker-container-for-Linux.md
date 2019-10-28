@@ -23,7 +23,7 @@ Docker for windows to install Linux
 6.  The default docker is Linux container, and you have it now. If you
     need to switch, use the docker whale at status bar.
 
-    ![image1.png]({{site.baseurl}}/_posts/image1.png)
+    ![status bar docker](image1.png)
 
 
 7.  You can click Kitematic and download, extract it to C:\\Program
