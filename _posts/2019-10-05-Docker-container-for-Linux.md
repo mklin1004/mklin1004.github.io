@@ -1,3 +1,6 @@
+---
+published: false
+---
 Docker for windows to install Linux
 
 **Installing the required software with Docker**
@@ -20,7 +23,8 @@ Docker for windows to install Linux
 6.  The default docker is Linux container, and you have it now. If you
     need to switch, use the docker whale at status bar.
 
-    ![](media/image1.png){width="6.25in" height="4.479166666666667in"}
+    ![image1.png]({{site.baseurl}}/_posts/image1.png)
+
 
 7.  You can click Kitematic and download, extract it to C:\\Program
     Files\\Docker\\Kitematic, to get a graphic interface for Docker.
@@ -46,7 +50,8 @@ copy this token and enter it in the jupyter notebook page to use the
 jupyter notebook for the book.
 
 > I use "**docker run -ti -p 9875:9875 -v c:\\biopython:/data bio"**
->
-> ![](media/image2.png){width="4.888888888888889in" height="2.75in"}
+
+![image2.png]({{site.baseurl}}/_posts/image2.png)
+
 
 10.
