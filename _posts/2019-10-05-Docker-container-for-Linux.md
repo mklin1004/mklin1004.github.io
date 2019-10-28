@@ -23,7 +23,7 @@ Docker for windows to install Linux
 6.  The default docker is Linux container, and you have it now. If you
     need to switch, use the docker whale at status bar.
 
-    ![status bar docker](./_post/image1.png)
+    ![status bar docker](./images/image1.png)
 
 
 7.  You can click Kitematic and download, extract it to C:\\Program
@@ -51,7 +51,7 @@ jupyter notebook for the book.
 
 > I use "**docker run -ti -p 9875:9875 -v c:\\biopython:/data bio"**
 
-![token](./_post/image2.png)
+![token-1](./images/image2.png)
 
 
 10.
