@@ -1,12 +1,9 @@
-\-\--
-
+---
 Title: Synapse Download
-
 Date: 2019-10-28
+Language: Python  
 
-Language: Python
-
-\-\--
+---
 
 ***PYTHON Code***
 
@@ -55,5 +52,5 @@ and comma separated.
 
 ![jupyter notebook](/images/image3.png)
 
-You mays also use Excel to format ids. Format column with TYPE \"@\",
+You mays also use Excel to format ids. Format column with TYPE \\\"@\"\\\,
 in TYPE field.
