@@ -35,7 +35,7 @@ The structure  is syn5580964
  2. use [This website](https://delim.co/#) to convert ids to strings and comma separated.
  3. Then you can copy and paste the ids to a list in jupiter notebook. 
 
-`
+{% highlight python %}
  ids = ["syn5580982", "syn5584053", "syn5584054", "syn5584062", "syn5584075", "syn5584077", "syn5584078", "syn5584081", 
        "syn5584094", "syn5584647", "syn5584653", "syn5584657", "syn5584660", "syn5584663", "syn5584667", "syn5584671", 
        "syn5584800", "syn5584803", "syn5584806", "syn5584810", "syn5584818", "syn5584830", "syn5584843", "syn5584851",
@@ -50,7 +50,8 @@ The structure  is syn5580964
        "syn5586316", "syn5586325", "syn5586376", "syn5586415", "syn5586420", "syn5586421", "syn5586422", "syn5586424"]
 
 for row in ids:
-    files = syn.get(row, downloadLocation="./mayo_RNAseq")`
+    files = syn.get(row, downloadLocation="./mayo_RNAseq")
+{% Endhighlight python %}
  
  
 You mays also use Excel to formate ids. Format column with TYPE \"@\, in TYPE field.
