@@ -48,5 +48,5 @@ and comma separated. You can setup converting methods.
 
 ![jupyter notebook](/images/image3.png)
 
-You mays also use Excel to format ids. Format column with \\\"@\\\"\,
+You mays also use Excel to format ids. Format column with \\\"@\\\",
 in TYPE field.
