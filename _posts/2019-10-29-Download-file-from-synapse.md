@@ -1,8 +1,8 @@
 ---
 Title: Synapse Download
-Date: 2019-10-28
-Language: Python  
-
+Date: {}
+Language: Python
+published: true
 ---
 
 ***PYTHON Code***
@@ -10,7 +10,7 @@ Language: Python
 1. import synapseclient  
 2. import synapseutils  
 3. syn = synapseclient.Synapse()  
-4. syn.login(\'username\',\'password\')  
+4. syn.login('username','password')  
 Welcome, username!
 
 **Bulk download**
@@ -18,12 +18,12 @@ Welcome, username!
 syn5580964 is the parent folder. This command will download all
 subfolders in syn5580964
 
-5\. files = synapseutils.syncFromSynapse(syn, entity = \'syn5580964\',
-path=\'./mayo\_RNASeq\')
+5. files = synapseutils.syncFromSynapse(syn, entity = 'syn5580964',
+path='./mayo_RNASeq')
 
 **single file download**
 
-6\. file = syn.get(\"syn5580982\")
+6. file = syn.get("syn5580982")
 
 [Please read Synapse documents for
 detail](https://docs.synapse.org/articles/downloading\_data.html)
@@ -34,7 +34,7 @@ The structure is
 --syn5580964  
    --> 765  
        -->7313768  
-          --> real RNA\_seq file like "1785276561\_B.FCD1LUUACXX\_L1\_ICGATGT.snap.bam"
+          --> real RNA\_seq file like "1785276561_B.FCD1LUUACXX_L1_ICGATGT.snap.bam"
 
 So a more practical method is to
 
