@@ -41,12 +41,12 @@ So a more practical method is to
 1. use the "copy id" function on synapse web to copy all synapse ids
 you want to download under syn5580964.
 
-2. use [This website](https://delim.co/#) to convert ids to strings
-and comma separated.
+2. use [This website](https://delim.co/#) to convert ids to strings (add double quote)
+and comma separated. You can setup converting methods.
 
 3. Then you can copy and paste the ids to a list in jupiter notebook.
 
 ![jupyter notebook](/images/image3.png)
 
-You mays also use Excel to format ids. Format column with TYPE \\\"@\\\"\,
+You mays also use Excel to format ids. Format column with \\\"@\\\"\,
 in TYPE field.
