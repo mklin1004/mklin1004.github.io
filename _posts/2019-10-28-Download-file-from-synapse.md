@@ -8,7 +8,7 @@ Language: Python
 
 \-\--
 
-\*\*\*PYTHON\*\*\*
+***PYTHON Code***
 
 1\. import synapseclient
 
@@ -37,10 +37,11 @@ detail](https://docs.synapse.org/articles/downloading\_data.html)
 
 This method will download several uncessary folders under syn5580964.
 
-The structure is syn5580964  
---> 765  
--->7313768  
---> real RNA\_seq file like "1785276561\_B.FCD1LUUACXX\_L1\_ICGATGT.snap.bam"
+The structure is  
+--syn5580964  
+   --> 765  
+       -->7313768  
+          --> real RNA\_seq file like "1785276561\_B.FCD1LUUACXX\_L1\_ICGATGT.snap.bam"
 
 So a more practical method is to
 
@@ -52,7 +53,7 @@ and comma separated.
 
 3\. Then you can copy and paste the ids to a list in jupiter notebook.
 
-![jupyter notebook](/images/image3.png){width="7.5in" height="4.21875in"}
+![jupyter notebook](/images/image3.png)
 
-You mays also use Excel to format ids. Format column with TYPE \\\"@\\,
+You mays also use Excel to format ids. Format column with TYPE \"@\",
 in TYPE field.
