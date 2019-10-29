@@ -20,7 +20,7 @@ Language: Python
 
 ==\>\*Welcome, username!\*
 
-\*\*Bulk download\*\*
+**Bulk download**
 
 syn5580964 is the parent folder. This command will download all
 subfolders in syn5580964
@@ -28,23 +28,19 @@ subfolders in syn5580964
 5\. files = synapseutils.syncFromSynapse(syn, entity = \'syn5580964\',
 path=\'./mayo\_RNASeq\')
 
-\*\*single file download\*\*
+**single file download**
 
 6\. file = syn.get(\"syn5580982\")
 
-\[Please read Synapse documents for
-detail\](https://docs.synapse.org/articles/downloading\_data.html)
+[Please read Synapse documents for
+detail](https://docs.synapse.org/articles/downloading\_data.html)
 
 This method will download several uncessary folders under syn5580964.
 
-The structure is syn5580964
-
-\--\> 765
-
-\--\>7313768
-
-\--\> real RNA\_seq file like
-\"1785276561\_B.FCD1LUUACXX\_L1\_ICGATGT.snap.bam\"
+The structure is syn5580964  
+--> 765  
+-->7313768  
+--> real RNA\_seq file like "1785276561\_B.FCD1LUUACXX\_L1\_ICGATGT.snap.bam"
 
 So a more practical method is to
 
