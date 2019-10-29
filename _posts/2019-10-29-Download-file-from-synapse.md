@@ -30,11 +30,11 @@ detail](https://docs.synapse.org/articles/downloading\_data.html)
 
 This method will download several uncessary folders under syn5580964.
 
-The structure is  
+The structure is, for example,  
 --syn5580964  
-   --> 765  
-       -->7313768  
-          --> real RNA\_seq file like "1785276561_B.FCD1LUUACXX_L1_ICGATGT.snap.bam"
+--> subfolder 765  
+-->subfoder 7313768  
+--> real RNA\_seq file like "1785276561_B.FCD1LUUACXX_L1_ICGATGT.snap.bam"
 
 So a more practical method is to
 
