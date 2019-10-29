@@ -56,7 +56,7 @@ and comma separated.
 
 3\. Then you can copy and paste the ids to a list in jupiter notebook.
 
-![](media/image1.png){width="7.5in" height="4.21875in"}
+![jupyter notebook](/images/image3.png){width="7.5in" height="4.21875in"}
 
 You mays also use Excel to format ids. Format column with TYPE \\\"@\\,
 in TYPE field.
