@@ -12,15 +12,6 @@ layout: default
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
- <ul>
-   
-{% for member in site.data.members %}
-  <li> 
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+
   {% include disqus.html %}
 </article>
