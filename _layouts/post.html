@@ -13,9 +13,10 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
  <ul>
+   
 {% for member in site.data.members %}
-  <li>
-    <a href="{{}}{{ member.github }}">
+  <li> 
+    <a href="{{site.baseurl}}{{ member.github }}">
       {{ member.name }}
     </a>
   </li>
